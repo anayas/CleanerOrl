@@ -1,0 +1,385 @@
+body {
+    margin: 0;
+    padding: 0;   
+}
+#wrapper {
+    margin: 0 auto;
+    background: #fff;
+    width: 918px;
+    border-right: 2px solid #666;
+    border-left: 2px solid #666;  
+}
+/*---------------header-------------------*/
+#header {
+    overflow: hidden;
+    background: #436990;
+    padding-top: .1em;   
+}
+#logo {
+    background: url(../images/logo5.png) top left no-repeat;
+    float: left;
+    width: 271px;
+    height: 57px;
+    padding-top: 15px;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-indent: -20000px;
+}
+#logo a {
+    display: block;
+}
+
+}
+/*---------------------nav------------------*/
+nav {
+    overflow: hidden;
+    display: block;
+    /*width: 460px;*/
+}
+nav ul li a {
+    font-family: arial, helvetica;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+nav li {
+    list-style: none;
+    float: left;
+    margin-left: 40px;
+    margin-top: 60px;   
+}
+a:hover {
+    color: #7e9dbd;
+    text-decoration: underline;
+}
+/*---------------------------cleaner healthier piece of mind----------------*/
+#cleaner_healthier {
+    background: #fff url(../images/wave.png) top right no-repeat;
+    overflow: hidden;
+    width: 100%;
+}
+#cleaner_healthier p {
+  
+    width: 350px;
+    font-family: corbel, arial, helvetica;
+    font-size: 20px;
+    color: #1b3476;
+    margin-top: 65px;
+    margin-left: 37px;
+    clear: left;
+    float: left;
+}
+/*-----------------home page content area-----------------*/
+
+h2 {
+    font-family: arial, helvetica;
+    font-size: 18px;
+    color: #244795;
+}
+.section {
+    float: left;
+    font-size: 18px;
+    color: #244795;
+    width: 181px;
+    padding-right: 37px;
+}
+#content {
+    overflow: hidden;
+    margin-left: 37px;
+    background: #fff;    
+}
+#content p {
+    height: 139px;
+    font-family: arial, helvetica;
+    font-size: 17px;
+    color: #000;  
+}
+/*-----------------residential comercial & special offers page content area-----------------*/
+#residential_services h1 {
+    font-family: "Arial Black", arial, helvetica;
+    font-size: 18px;
+    color: #244795;
+    margin-left: 37px;
+    margin-top: 37px;
+   
+}
+#pictures li{
+    float: left;
+    margin-right: 37px;
+    display: block;
+}
+#pictures li img {
+    -moz-box-shadow: 0 0 8px #000;
+    -webkit-box-shadow: 0 0 8px #000;
+    box-shadow: 0 0 8px #000; 
+}
+/*---------------------------why us page----------------*/
+#why_us h1 {
+    font-family: "Arial Black", arial, helvetica;
+    font-size: 18px;
+    margin-left: 37px;
+    margin-top: 37px;
+    color: #244795;
+    width: 315px;
+    float: left;
+}
+#why_us_content ul li {
+    width: 515px;
+    font-family: arial, helvetica;
+    clear: left;
+    float: left;  
+    margin: 0 0 15px 37px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+#why_us span {
+    font-weight: bold;
+}
+/*-----------------form page content area-----------------*/
+#form_wrapper {
+    background: #d3e1ef;
+}
+#form {
+    background: #98b0c9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+}
+#form fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+#form fieldset:last-of-type {
+    margin-bottom: 0;
+}
+#form legend {
+    color: #384313;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial, helvetica;
+    padding-bottom: 10px;
+    text-shadow: 0 1px 1px #384313;
+}
+form > fieldset > legend:before {
+    content: "Step" counter(fieldsets) ": ";
+    counter-increment: fieldsets;
+}
+
+#form fieldset fieldset legend {
+    color: #111;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+#form ol li {
+    background: #779fc8;
+    border-color: #e3ebc3;
+    border-color: rgba(255,255,255,.6);
+    border-style: solid;
+    border-width: 2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    line-height: 30px;
+    font-family: arial, helvetica;
+    color: #f9f1b1;
+    list-style: none;
+    padding: 5px 10px;
+    margin-bottom: 2px;
+}
+#form ol ol li {
+    background: none;
+    border: none;
+    float: left;  
+}
+
+#form label {
+    float: left;
+    font-size: 13px;
+    width: 110px;
+}
+
+#form fieldset fieldset label {
+    line-height: 20px;
+    padding: 0 0 0 15px;
+    width: auto;
+}
+#form fieldset fieldset label:hover {
+    cursor: pointer;
+}   
+input:not([type=radio]),
+    #form textarea {
+    background: #fff;
+    border: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    font: italic 13px arial;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+}
+#form input:not([type=submit]):focus, #form textarea:focus {
+    background: #eaeaea;
+}
+#form input[type=radio] {
+    float: left;
+    margin-right: 5px;
+}
+#form input[type=checkbox] {
+    clear: left;
+    float: left;
+    width: 60px;
+    margin-right: 5px;
+    margin-top: 5px;   
+}
+
+#step_three label{
+    float: none;
+}   
+#form button {
+    background: #384313;
+    border: none;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    font: 18px arial;
+    letter-spacing: 1px;
+    margin: auto;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #000000;
+    text-transform: uppercase;
+}
+#form button:hover {
+    background: #1e2506;
+    cursor: pointer;
+}
+/*-----------------------schedule appt button-------------------*/
+#appointment_button {
+    clear: left;
+    background: #d54949;
+    width: 350px;
+    font-size: 18px;
+    padding: 1px;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5em 7em;
+    -khtml-border-radius: 5em 7em;
+    border-top-right-radius: 5em 7em;  
+}
+#appointment_button p a {
+     margin-left: 37px;
+     font-family: arial, helvetica;
+     font-size: 22px;
+     color: #fff;
+     display: block;    
+}
+#appointment_button p {
+    line-height: 0;
+    padding-bottom: 0;
+    color: #fff;
+}
+/*----------------bottom content-----------------------*/
+#bottom_content {
+    background: #436990;
+    overflow: hidden;
+}
+
+#bottom_content #note {
+   float: left;
+    width: 320px;
+    height: 117px;
+    font-family: Helvetica, arial;
+    font-size: 24px;
+    color: #f9f1b1;
+    line-height: 1.2em;
+    margin-left: 37px;
+    margin-bottom: 15px;
+    padding-top: 10px;    
+}
+#note span {
+    line-height: 2.5em;
+}
+/*-----------contact in footer------------*/
+#company_info {
+    background: #436990;
+    clear: left;
+    float: left;     
+}
+#schedule_appointment {
+    float: left;
+    margin-left: 100px;
+    width: 282px;
+    height: 166px;
+    border-left: 5px solid #fff;
+    padding-left: 50px;
+    padding-right: 20px;   
+}
+#schedule_appointment h3{
+    border-bottom: 1px solid #fff;
+    width: 258px;
+    padding-bottom: 5px;   
+}
+#bottom_content #schedule_appointment h3 a { /*-----------Schedule appointment------------*/
+    width: 282px;
+    font-family: "Arial rounded MT", Arial, helvetica;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+#schedule_appointment #call_us {
+    font-family: arial, helvetica;
+    font-size: 15px;
+    color: #f9f1b1;  
+}
+#phone_number {
+    font-family: arial, helvetica;
+    font-size: 18px;
+    line-height: .1em;
+    color: #f9f1b1;
+}
+#or_schedule {
+    font-family: arial, helvetica;
+    font-size: 17px;
+    line-height: .1em;
+    color: #f9f1b1;
+}
+#or_schedule a {
+    color: #fff;
+    text-decoration: none;
+}
+/*-------------------white footer section-----------------*/
+footer {
+    float: left;
+    width: 921px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+footer ul {
+    margin: 0;
+    margin-left: -30px;
+    overflow: hidden;
+}
+footer ul li {
+    margin: 0;
+    padding: 20px 20px 0;
+}
+
+footer nav ul li a {
+    font-family: arial, helvetica;
+    font-size: 14px;
+    color: #666;
+    float: left;
+}
+footer span ul {
+    clear: both;
+    margin-left: 100px;
+}
